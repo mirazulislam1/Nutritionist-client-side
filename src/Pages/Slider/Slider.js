@@ -7,7 +7,7 @@ const Slider = () => {
     return (
         <div className="carousel w-full mt-5 rounded-lg">
             <div id="slide1" className="carousel-item relative w-full">
-                <img src={slider1} className="w-full" />
+                <img src={slider1} className="w-full h-3/4" />
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/3">
                 <h1 className='text-white text-5xl font-bold text-center text-center'>Your Personal <br />
                     Nutritionist</h1>
@@ -21,7 +21,7 @@ const Slider = () => {
                 </div>
             </div>
             <div id="slide2" className="carousel-item relative w-full">
-                <img src={slider2} className="w-full" />
+                <img src={slider2} className="w-full h-3/4" />
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/3">
                 <h1 className='text-white text-5xl font-bold text-center'>Individual Diet<br />
                 Plans</h1>
@@ -35,8 +35,8 @@ const Slider = () => {
                 </div>
             </div>
           
-            <div id="slide3" className="carousel-item relative w-full">
-                <img src={slider3} className="w-full" />
+            <div id="slide3" className="carousel-item relative w-full rounded-lg">
+                <img src={slider3} className="w-full h-3/4" />
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/3">
                 <h1 className='text-white text-5xl font-bold text-center'>Free Nutritionist <br />
                     Consultation</h1>
