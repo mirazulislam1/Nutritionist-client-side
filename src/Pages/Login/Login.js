@@ -2,8 +2,9 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../Contexts/AuthProvider/AuthProvider';
 
+
 const Login = () => {
-    const {logIn} = useContext(AuthContext)
+    const {logIn, googleSignIn} = useContext(AuthContext)
     const handleLogin =(event)=>{
         event.preventDefault()
         const form = event.target;
@@ -16,8 +17,19 @@ const Login = () => {
             console.log(user)
         })
         .catch(error => console.error(error))
+    }
+    // google signIn
+
+    const handleGoogleSignIn =() =>{
+        googleSignIn()
+        .then(result=>{
+            const user = result.user;
+            console.log(user);
+        })
+        .catch(error =>console.error(error))
 
     }
+
     return (
         <div className="hero min-h-screen bg-base-200">
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
@@ -37,7 +49,10 @@ const Login = () => {
                         </div>
                         <div className="form-control mt-6">
                             <input className="btn btn-primary" type="submit" value="Login" />
-                    </div>
+                        </div>
+                        <div onClick={handleGoogleSignIn} className="form-control mt-6">
+                            <input className="btn btn-primary" type="submit" value="SignIn with Google" />
+                        </div>
                     </form>
                     <p className='text-center font-bold mb-2'>Create a new account <Link className='text-orange-600 text-bold' to='/signup'>Sign Up</Link></p>
                 </div>
