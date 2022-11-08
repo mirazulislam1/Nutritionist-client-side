@@ -9,10 +9,8 @@ const Footer = () => {
     return (
         <footer className="footer p-10 bg-neutral text-neutral-content mt-10 rounded-xl">
             <div>
-               <div>
                     <img className='h-20 flex ' src={icon} alt="" />
                     <p className='text-4xl font-bold'>Nutritionist</p>
-               </div>
                 <p>The Midwest's premier out-patient center for treatment <br /> of eating disorders. Nutrition and Dietitian services, <br /> in-person and via Telehealth. Most Insurance Accepted.</p>
                 <div className='flex'>
                     <span className='text-4xl p-2 text-success'><FaFacebook></FaFacebook></span>
