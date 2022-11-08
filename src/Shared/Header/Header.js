@@ -1,12 +1,33 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../Contexts/AuthProvider/AuthProvider';
 import icon from '../../Images/navbar/navbar-icon.png'
 
 const Header = () => {
+    const {user, logOut} = useContext(AuthContext)
 
-    const navItems = <>
-        <li><Link to='/'>Home</Link></li>
-    </>
+    const handleLogOut = () =>{
+        logOut()
+        .then()
+        .catch()
+    }
+    const navItems =
+    <>
+        <li className='font-semibold'><Link to='/'>Home</Link></li>
+        { 
+          user?.email?
+          <> 
+          <li className='font-semibold'><Link to='/orders'>Orders</Link></li>
+          <li className='font-semibold'>
+              <button onClick={handleLogOut} className='btn-ghost'>Sign Out</button>
+          </li>
+          </>
+          :
+          <li className='font-semibold'><Link to='/login'>Login</Link></li>
+          
+        }
+        
+        </>
     return (
         <div className="navbar bg-accent-focus text-white rounded-lg">
             <div className="navbar-start ">
