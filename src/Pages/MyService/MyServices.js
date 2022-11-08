@@ -14,6 +14,7 @@ const MyServices = () => {
                     <img className='service-image ml-20' src={img1} alt="Avatar" />
                     <h3 className='text-info mt-5 font-bold text-3xl text-center'>Fitness Trainings</h3>
                     <p className='text-center mt-2 p-4'>Whether you're a doctor or a patient, this exercise will make communication easier by teaching you the right medical/health-related vocabulary.</p>
+                    
                 </div>
 
                 <div>
