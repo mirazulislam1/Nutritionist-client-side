@@ -3,48 +3,48 @@
         "name":"Single consultation",
         "image":"https://media.istockphoto.com/id/1160789077/photo/nutritionist-giving-consultation-to-patient-with-healthy-fruit-and-vegetable-right-nutrition.jpg?s=612x612&w=0&k=20&c=t5LNRmwc-BKcV-jmOGiCZXo5DWjBZKMe0OumH4WdW7I=",
         "Description":"Its a free of cost, 30 min one-on-one consultation session with Dietitian Farzana Ahmed. You can either come to our office in New Delhi or do it over video or a phone call. We don’t make you jump through a bunch of hoops. If you want a free consultation, just let us know how we can help. And we’ll go from there.",
-        "price":"$ 00",
-        "ratings":"9.8"
+        "price":"00",
+        "rating":"9.8"
 
     },
     {
         "name":"Nutrition complex",
         "image":"https://media.istockphoto.com/id/1204583112/photo/nutritionist-is-consulting-the-patient-about-healthy-diet-with-vegetables-and-fruits.jpg?s=612x612&w=0&k=20&c=9xqlMsfAvyJ_rbWXmICrJgFAIalLhPe-7uUehX3wdnk=",
         "Description":"Nutrition is a fascinating but complex puzzle. We have all heard about complex carbohydrates, simple carbohydrates, proteins, lipids (fats), fiber, probiotics, vitamins, minerals, and antioxidants, but how to put it all together can be very complex. Scientific studies can only focus on a few nutrients at a time. Therefore often one or two nutrients gain media attention at any given time and those nutrients become talk of the time and ingredient of the time. Few years later we realize that we have gone too far, leading to different kind of diseases.",
-        "price":"$ 15",
-        "ratings":"7.8"
+        "price":"15",
+        "rating":"7.8"
 
     },
     {
         "name":"How to reduce weight",
         "image":"https://us.123rf.com/450wm/kitzcorner/kitzcorner2005/kitzcorner200500074/147648435-nutritionist-giving-consultation-to-patient-with-healthy-fruit-and-vegetable-right-nutrition-and-die.jpg?ver=6",
         "Description":"Its a free of cost, 30 min one-on-one consultation session with Dietitian Farzana Ahmed. You can either come to our office in New Delhi or do it over video or a phone call. We don’t make you jump through a bunch of hoops. If you want a free consultation, just let us know how we can help. And we’ll go from there.",
-        "price":"$ 19",
-        "ratings":"8.9"
+        "price":"19",
+        "rating":"8.9"
 
     },
     {
         "name":"Diet recomendations",
         "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROHpgMMNM93k1IkxDltPTas8AkozIKf6_Kve-27XgVbM4tV3Ls9vjui50Rcjn6eGjWhsg&usqp=CAU",
         "Description":"Its a free of cost, 30 min one-on-one consultation session with Dietitian Farzana Ahmed. You can either come to our office in New Delhi or do it over video or a phone call. We don’t make you jump through a bunch of hoops. If you want a free consultation, just let us know how we can help. And we’ll go from there.",
-        "price":"$ 25",
-        "ratings":"9.5"
+        "price":"25",
+        "rating":"9.5"
 
     },
     {
         "name":"Ways to improve health",
         "image":"https://ischoolconnect.com/blog/wp-content/uploads/2022/03/Dietetics-.jpg",
         "Description":"Its a free of cost, 30 min one-on-one consultation session with Dietitian Farzana Ahmed. You can either come to our office in New Delhi or do it over video or a phone call. We don’t make you jump through a bunch of hoops. If you want a free consultation, just let us know how we can help. And we’ll go from there.",
-        "price":"$ 20",
-        "ratings":"9.0"
+        "price":"20",
+        "rating":"9.0"
 
     },
     {
         "name":"Lifestyle and sports",
         "image":"https://ischoolconnect.com/blog/wp-content/uploads/2022/03/Nutrition-.jpg",
         "Description":"Its a free of cost, 30 min one-on-one consultation session with Dietitian Farzana Ahmed. You can either come to our office in New Delhi or do it over video or a phone call. We don’t make you jump through a bunch of hoops. If you want a free consultation, just let us know how we can help. And we’ll go from there.",
-        "price":"$ 10",
-        "ratings":"8.8"
+        "price":"10",
+        "rating":"8.8"
 
     }
 ]

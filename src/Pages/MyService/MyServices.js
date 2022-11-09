@@ -7,7 +7,6 @@ import './MyService.css'
 const MyServices = () => {
     return (
         <div className='mt-20'>
-            <h3 className='text-center text-2xl text-accent'>My Services</h3>
             <h1 className='text-center font-bold text-4xl text-accent-focus'>Let's change your life</h1>
             <div className='grid lg:grid-cols-3 mt-10'>
                 <div>
