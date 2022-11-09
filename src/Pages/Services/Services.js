@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import ServicesCard from './ServicesCard';
 
 const Services = () => {
@@ -12,7 +13,7 @@ const Services = () => {
         <div>
             <div className='text-center mt-20'>
                 <h3 className='text-center text-2xl text-accent font-semibold'>My Services</h3>
-                <p>Our dieticians will provide personalized diet instruction, <br /> menu planning, lifestyle and behavioral changes advice to insure a healthy nutritional plan </p>
+                <p>My dieticians will provide personalized diet instruction, <br /> menu planning, lifestyle and behavioral changes advice to insure a healthy nutritional plan </p>
             </div>
             <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-6'>
 
@@ -21,6 +22,7 @@ const Services = () => {
             }
 
             </div>
+            <Link><button className="btn btn-outline btn-success font-bold">Show Details</button></Link>
         </div>
     );
 };
