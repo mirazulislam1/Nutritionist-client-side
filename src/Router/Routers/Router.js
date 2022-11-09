@@ -1,3 +1,4 @@
+import Blog from "../../Blog/Blog";
 import Main from "../../layout/Main";
 import Home from "../../Pages/Home/Home";
 import Login from "../../Pages/Login/Login";
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
             {
                 path:'serviceDetails',
                 element: <ServicesDetails></ServicesDetails>
+            },
+            {
+                path: 'blog',
+                element: <Blog></Blog>
             }
 
         ]

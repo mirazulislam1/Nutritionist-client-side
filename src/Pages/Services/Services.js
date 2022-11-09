@@ -22,7 +22,9 @@ const Services = () => {
             }
 
             </div>
-            <Link><button className="btn btn-outline btn-success font-bold">Show Details</button></Link>
+            <div className='text-center mt-10'>
+                <button className="btn btn-outline btn-success font-bold"><Link to='/serviceDetails'>Show Details</Link></button>
+            </div>
         </div>
     );
 };
