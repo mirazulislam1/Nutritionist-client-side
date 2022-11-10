@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const ServicesCard = ({service}) => {
     const {image, name,Description, price, rating} = service
@@ -19,7 +18,7 @@ const ServicesCard = ({service}) => {
             <p className='text-2xl text-orange-600 font-semibold'>Price : ${price}</p>
             <p className='text-2xl text-orange-600 font-semibold'>Ratings : {rating}</p>
             <div className="card-actions justify-end">
-               
+                
             </div>
         </div>
         </div>

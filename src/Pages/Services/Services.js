@@ -5,7 +5,7 @@ import ServicesCard from './ServicesCard';
 const Services = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://b6a11-service-review-server-side-mirazulislam1.vercel.app/services')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
@@ -23,7 +23,7 @@ const Services = () => {
 
             </div>
             <div className='text-center mt-10'>
-                <button className="btn btn-outline btn-success font-bold"><Link to='/serviceDetails'>Show Details</Link></button>
+                <button className="btn btn-outline btn-success font-bold text-2xl"><Link to='/serviceDetails'>See All</Link></button>
             </div>
         </div>
     );

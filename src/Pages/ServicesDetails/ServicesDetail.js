@@ -13,7 +13,7 @@ const ServicesDetail = ({ service }) => {
 
                 {
                     Description.length > 100 ?
-                        <>{Description.slice(0, 100) + '...'} <Link to={`/service/${_id}`}>Read More...</Link></>
+                        <>{Description.slice(0, 100) + '...'} <Link to={`/service/${_id}`}><button className="btn btn-outline btn-success">view details...</button></Link></>
                         :
                         Description
                 }
@@ -21,7 +21,7 @@ const ServicesDetail = ({ service }) => {
                 <p className='text-2xl text-orange-600 font-semibold'>Price : ${price}</p>
                 <p className='text-2xl text-orange-600 font-semibold'>Ratings : {rating}</p>
                 <div className="card-actions justify-end">
-                    <Link to={`/checkout/${_id}`}><button className="btn btn-primary">Checkout</button></Link>
+                    <Link to={`/checkOut/${_id}`}><button className="btn btn-primary">Checkout</button></Link>
                 </div>
             </div>
         </div>

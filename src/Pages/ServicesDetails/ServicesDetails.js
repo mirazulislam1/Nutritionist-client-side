@@ -4,7 +4,7 @@ import ServicesDetail from './ServicesDetail';
 const ServicesDetails = () => {
     const [allServices, setAllServices] = useState([]);
         useEffect(() => {
-        fetch('http://localhost:5000/allServices')
+        fetch('https://b6a11-service-review-server-side-mirazulislam1.vercel.app/allServices')
             .then(res => res.json())
             .then(data => setAllServices(data))
         }, [])
