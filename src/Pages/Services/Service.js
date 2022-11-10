@@ -1,8 +1,10 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import useTitle from '../../hooks/useTitle';
 
 const Service = () => {
     const {image, name,Description, price, rating} = useLoaderData();
+    useTitle('Service')
     return (
         <div className="card w-96 bg-base-100 shadow-xl mt-20">
         <figure><img src={image} alt="Shoes" /></figure>

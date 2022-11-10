@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useTitle from '../../hooks/useTitle';
 
 const ServicesDetail = ({ service }) => {
-    const {_id,image, name,Description, price, rating} = service
+    const {_id,image, name,Description, price, rating} = service;
+    useTitle('AllServices')
     return (
         <div className="card w-96 bg-base-100 shadow-xl">
             <figure><img src={image} alt="Shoes" /></figure>

@@ -1,10 +1,12 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../Contexts/AuthProvider/AuthProvider';
+import useTitle from '../../hooks/useTitle';
 
 
 const Login = () => {
-    const {logIn, googleSignIn} = useContext(AuthContext)
+    const {logIn, googleSignIn} = useContext(AuthContext);
+    useTitle('Login')
     const handleLogin =(event)=>{
         event.preventDefault()
         const form = event.target;
@@ -54,7 +56,7 @@ const Login = () => {
                             <input className="btn btn-primary" type="submit" value="SignIn with Google" />
                         </div>
                     </form>
-                    <p className='text-center font-bold mb-2'>Create a new account <Link className='text-orange-600 text-bold' to='/signup'>Sign Up</Link></p>
+                    <p className='text-center font-bold mb-2'>Create a new account <Link className='text-orange-600 text-bold' to='/register'>Sign Up</Link></p>
                 </div>
             </div>
      
