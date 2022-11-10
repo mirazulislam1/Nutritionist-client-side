@@ -11,7 +11,7 @@ const ServicesDetail = ({ service }) => {
 
                 {
                     Description.length > 100 ?
-                        <>{Description.slice(0, 100) + '...'}</>
+                        <>{Description.slice(0, 100) + '...'} <Link to={`/service/${_id}`}>Read More...</Link></>
                         :
                         Description
                 }
