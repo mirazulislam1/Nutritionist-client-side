@@ -1,5 +1,5 @@
 * My project name : Nutritionist
-* live site link:https://service-review-86d3f.web.app/serviceDetails
+* live site link:https://service-review-86d3f.web.app/
 * My project make various library and component.Those are daisyUI, react, react-router-dom, firebase,
     express, node, mongodb, tailwind etc.
 
